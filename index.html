@@ -4,26 +4,19 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>BMI Calculator with JavaScript</title>
-        <link rel="stylesheet" href="style.css">
 
-        <title>BMI Kalkulator</title>
+        <title> BMI Calculator </title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <div class="container">
             <h1>Check Your BMI</h1>
-            <p>Enter your weight and height below to check your BMI results</p>
+            <label>Enter your weight and height below to check your BMI results</label>
 
-            <div class="input">
-                <label>Put your weight in here (KG) :</label>
-                <input type="text" id="weight"><br><span id="weight_error"></span>
-            </div>
-            <div class="input">
-                <label>Put your height in here (CM) :</label>
-                <input type="text" id="height"><br><span id="weight_error"></span>
-            </div>
-            <button id="btn">Calculate</button>
-            <p id="output"></p>
+            <p>Put your height in here (CM) :
+                <input type="text" id="height"><br><span id="height_error"></span>
+            </p>
         </div>
+        <script src="script.js" defer></script>
     </body>
 </html>
