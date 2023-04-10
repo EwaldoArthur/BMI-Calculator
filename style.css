@@ -2,3 +2,16 @@ body {
     font-family: "poppins", sans-serif;
     background-color: aliceblue;
 }
+
+span {
+    color: red;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 15px;
+    width: 50%;
+    transform:translate(-50%, -50%);
+}
