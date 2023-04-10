@@ -14,4 +14,42 @@ span {
     padding: 15px;
     width: 50%;
     transform:translate(-50%, -50%);
+    background-color: aliceblue;
+    border-radius: 5px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container label {
+    text-align: center;
+    padding-left: 15%;
+}
+
+.container p {
+    padding-left: 15%;
+}
+
+input {
+    outline: none;
+    border-color: black;
+    padding: 5px;
+}
+
+button {
+    color: white;
+    display: block;
+    padding: 5px;
+    border: 2px solid rgb(95, 95, 255);
+    background: rgb(95, 95, 255);
+    margin-top: 5%;
+    margin-left: 15%;
+    cursor: pointer;
+}
+
+button:hover {
+    border: 2px solid blue;
+    background-color: blue;
 }
